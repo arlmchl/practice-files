@@ -1,0 +1,20 @@
+.grid-container {
+    width: 80%;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 2rem;
+    /* added code */
+    display: grid;
+    grid-template-columns: auto 400px minmax(200px, 500px);
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-auto-rows: 50px;
+    /* end of added code */
+}
+
+.grid-item {
+    background-color: darkviolet;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border: 2px solid goldenrod;
+}
